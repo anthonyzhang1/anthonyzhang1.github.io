@@ -1,0 +1,49 @@
+/* Contains styling used across multiple pages. */
+
+/* Affects the parts of the page without content. Also holds global variables. */
+:root {
+  --footer-height: 2.5rem;
+  --site-background-color: rgb(219, 215, 225); /* Used to make the site's background color consistent. */
+
+  background-color: var(--site-background-color);
+}
+
+/* Affects the parts of the page with content. */
+.index {
+  min-height: 100vh;
+  position: relative; /* Used to keep the footer where it belongs. */
+  padding-bottom: var(--footer-height); /* Prevents a page's content from being covered by the footer. */
+
+  background-color: var(--site-background-color);
+
+  text-align: center;
+  font-family: 'Meiryo UI', 'Helvetica', sans-serif;
+  font-size: 20px;
+  color: black; /* text color */
+}
+
+/******* Navigation Bar Component START *******/
+.navigation-bar-c {
+  border-bottom: 1px grey solid;
+}
+
+/* The part of the navbar with "Anthony Zhang". */
+.navigation-bar-c .navbar-brand {
+  font-weight: bold;
+}
+
+.navigation-bar-c .nav-link {
+  color: black;
+} .navigation-bar-c .nav-link:hover {
+  color: grey;
+}
+/******* Navigation Bar Component END *******/
+
+/******* Footer Component START *******/
+/* Sets the footer to the bottom of the page. */
+.footer-c {
+  position: absolute;
+  bottom: 0;
+  height: var(--footer-height);
+}
+/******* Footer Component END *******/
