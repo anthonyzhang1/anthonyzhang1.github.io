@@ -1,8 +1,8 @@
-/* Contains styling used across multiple pages. */
+/* This file contains styling for components used across multiple pages. */
 
 /* Affects the parts of the page without content. Also holds global variables. */
 :root {
-  --footer-height: 2.5rem;
+  --footer-height: 40px;
   --site-background-color: rgb(219, 215, 225); /* Used to make the site's background color consistent. */
 
   background-color: var(--site-background-color);
@@ -13,18 +13,30 @@
   min-height: 100vh;
   position: relative; /* Used to keep the footer where it belongs. */
   padding-bottom: var(--footer-height); /* Prevents a page's content from being covered by the footer. */
-
   background-color: var(--site-background-color);
 
   text-align: center;
   font-family: 'Meiryo UI', 'Helvetica', sans-serif;
   font-size: 20px;
-  color: black; /* text color */
+  color: black; /* text colour */
+}
+
+/* Adds extra space between the page's h1 header and its surroundings. */
+.page-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Inserts a gap between the page's content and the edges of the screen. */
+.page-content {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 /******* Navigation Bar Component START *******/
 .navigation-bar-c {
   border-bottom: 1px grey solid;
+  padding: 0.25rem; /* Makes the navigation bar not as tall. */
 }
 
 /* The part of the navbar with "Anthony Zhang". */
@@ -34,16 +46,22 @@
 
 .navigation-bar-c .nav-link {
   color: black;
-} .navigation-bar-c .nav-link:hover {
+}
+
+.navigation-bar-c .navbar-brand:hover,
+.navigation-bar-c .nav-link:hover {
   color: grey;
 }
 /******* Navigation Bar Component END *******/
 
 /******* Footer Component START *******/
-/* Sets the footer to the bottom of the page. */
 .footer-c {
+  /* Sets the footer to the bottom of the page. */
   position: absolute;
   bottom: 0;
   height: var(--footer-height);
+
+  border-top: 1px grey solid;
+  padding-top: 5px; /* Vertically centers the footer's content. */
 }
 /******* Footer Component END *******/

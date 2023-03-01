@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 /* The application's CSS. */
 import 'bootstrap/dist/css/bootstrap.min.css'; // for React Bootstrap
+import './css/About.css';
 import './css/Home.css';
 import './css/Index.css';
 
@@ -14,6 +15,7 @@ import Footer from './components/Footer.js';
 import NavigationBar from './components/NavigationBar.js';
 
 /* The application's pages. */
+import About from './pages/About.js';
 import Home from './pages/Home.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,6 +28,7 @@ root.render(
 
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
         </Routes>
 
         <Footer />

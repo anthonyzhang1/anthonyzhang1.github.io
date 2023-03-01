@@ -1,0 +1,16 @@
+/* This file contains styling used on the About page and any of its components. */
+
+/* Indents the content to make it slightly more centralized on the screen. */
+.about-p .left-indent {
+  text-align: left;
+  margin-left: 3%;
+}
+
+.about-p .section-title {
+  font-weight: bold;
+}
+
+/* Adds additional vertical space between the sections. */
+.about-p .section-body {
+  margin-bottom: 2.5rem;
+}
