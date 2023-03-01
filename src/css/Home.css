@@ -1,1 +1,5 @@
 /* This file contains styling used on the Home page and any of its components. */
+
+.home-p .featured-works {
+  margin-top: 3.5rem;
+}

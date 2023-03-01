@@ -1,6 +1,6 @@
 # Node dependencies and production
-build
-node_modules
+/build
+/node_modules
 
 # Used in the predeploy script to fix routing issues related to GitHub pages.
-404.html
+/404.html

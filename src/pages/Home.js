@@ -9,11 +9,8 @@ export default function Home() {
         Learn more about me through the links in the navigation bar above!
       </p>
 
-      {/* TODO: Temporary spacing */}
-      <br /><br />
-
       {/* TODO: Add component with image of work, link, title, description, etc. */}
-      <h3>Featured Works</h3>
+      <h3 className='featured-works'>Featured Works</h3>
       <p>To come... 🙏</p>
     </div>
   );

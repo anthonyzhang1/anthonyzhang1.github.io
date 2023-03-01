@@ -1,0 +1,17 @@
+/* This file contains styling used on the Contact page and any of its components. */
+
+/* Adds a little more space between the page title and the contact methods. */
+.contact-p .page-title {
+  margin-bottom: 1.5rem;
+}
+
+.contact-p .icon {
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+/* Removes the underlining on a link. */
+.contact-p .link {
+  text-decoration: none;
+}

@@ -5,6 +5,7 @@ export default function About() {
     <div className='about-p page-content'>
       <h1 className='page-title'>About Anthony 🙏</h1>
 
+      {/* Education Section */}
       <h2 className='left-indent section-title'>Education</h2>
       <p className='left-indent section-body'>
         <strong>San Francisco State University, California, USA</strong> <br />
@@ -13,6 +14,7 @@ export default function About() {
         Honours: Summa Cum Laude (GPA: 4.00)
       </p>
 
+      {/* Technologies Section */}
       <h2 className='left-indent section-title'>Technologies</h2>
       <p className='left-indent section-body'>
         <strong>Web Development:</strong> HTML, CSS, JavaScript, Node.js, React, Express.js, Amazon EC2, NGINX, Figma <br />
@@ -22,6 +24,7 @@ export default function About() {
         <strong>Miscellaneous:</strong> GitHub
       </p>
 
+      {/* Skills/Coursework Section */}
       <h2 className='left-indent section-title'>Skills/Coursework</h2>
       <p className='left-indent section-body'>
         Software Engineering (front-end and back-end), Web Development, Database Systems, iOS Application Development, <br />
