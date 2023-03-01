@@ -16,7 +16,7 @@
     "gh-pages": "^5.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build && cp 404.html build",
+    "predeploy": "npm run build && copy 404.html build",
     "deploy": "gh-pages -d build",
     "start": "cross-env BROWSER=none react-scripts start",
     "build": "react-scripts build",
