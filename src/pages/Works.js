@@ -9,7 +9,7 @@ export default function Works() {
     <WorkCard cardImage='/images/works/placeholder.jpg' description='A website for showing my projects~'
       link='/work/anthony-website' title="Anthony's Website [WIP]"
     />,
-    <WorkCard cardImage='/images/works/gatormmunity/card-image.png'
+    <WorkCard cardImage='/images/works/gatormmunity/cover.png'
       description='A social networking site and marketplace for San Francisco State University!'
       link='/work/gatormmunity' title='Gatormmunity'
     />,
@@ -29,8 +29,8 @@ export default function Works() {
     <WorkCard cardImage='/images/works/placeholder.jpg' description='A mock online payment website similar to Venmo.'
       link='/work/moneyish' title='Moneyish [WIP]'
     />,
-    <WorkCard cardImage='/images/works/placeholder.jpg' description='A text-based RPG written in Java.'
-      link='/work/text-based-rpg' title='Text-Based RPG [WIP]'
+    <WorkCard cardImage='/images/works/text-based-rpg/cover.png' description='A text-based RPG written in Java.'
+      link='/work/text-based-rpg' title='Text-Based RPG'
     />
   ];
 

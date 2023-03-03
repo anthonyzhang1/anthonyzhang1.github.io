@@ -26,6 +26,7 @@ import Works from './pages/Works.js';
 
 /* The pages for my works. */
 import Gatormmunity from './pages/works/Gatormmunity.js';
+import TextBasedRPG from './pages/works/TextBasedRPG.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -44,6 +45,7 @@ root.render(
 
           {/* Works */}
           <Route path='/work/gatormmunity' element={<Gatormmunity />} />
+          <Route path='/work/text-based-rpg' element={<TextBasedRPG />} />
           
           {/* Invalid route */}
           <Route path='*' element={<PageNotFound />} />
