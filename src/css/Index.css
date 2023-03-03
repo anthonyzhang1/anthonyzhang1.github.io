@@ -68,6 +68,12 @@
 /******* Navigation Bar Component END *******/
 
 /******* Work Card Component START *******/
+.work-card-c {
+  height: 100%; /* Makes each card stretch to the size of the largest card in the row. */
+  max-height: 35rem;
+  overflow: auto;
+}
+
 /* Indicates that a card is clickable by changing the cursor and color of the card on hover. */
 .work-card-c:hover {
   cursor: pointer;
@@ -75,10 +81,15 @@
 }
 
 .work-card-c .card-img {
-  max-height: 22.5rem;
+  height: 20rem;
 }
 
 .work-card-c .card-title {
   font-weight: bold;
+}
+
+/* Keeps the card's text from being too close to the bottom of a card. */
+.work-card-c .card-text {
+  padding-bottom: 0.75rem;
 }
 /******* Work Card Component END *******/

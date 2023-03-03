@@ -6,7 +6,7 @@ export default function NavigationBar() {
     // `expand` turns the navbar into a hamburger dropdown if the display is not wide enough.
     <Navbar className='navigation-bar-c' expand='sm'>
       <Container>
-        <Navbar.Brand href='/' className='me-5'>Anthony Zhang</Navbar.Brand>
+        <Navbar.Brand className='me-5' href='/'>Anthony Zhang</Navbar.Brand>
         <Navbar.Toggle aria-controls='navigation-bar' />
         <Navbar.Collapse id='navigation-bar'>
           <Nav className='gap-4'>
