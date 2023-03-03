@@ -10,6 +10,7 @@ import './css/About.css';
 import './css/Contact.css';
 import './css/Home.css';
 import './css/Index.css';
+import './css/Work.css';
 import './css/Works.css';
 
 /* The components that are used on every page. */
@@ -22,6 +23,9 @@ import Contact from './pages/Contact.js';
 import Home from './pages/Home.js';
 import PageNotFound from './pages/PageNotFound.js';
 import Works from './pages/Works.js';
+
+/* The pages for my works. */
+import Gatormmunity from './pages/works/Gatormmunity.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -37,6 +41,9 @@ root.render(
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/works' element={<Works />} />
+
+          {/* Works */}
+          <Route path='/work/gatormmunity' element={<Gatormmunity />} />
           
           {/* Invalid route */}
           <Route path='*' element={<PageNotFound />} />

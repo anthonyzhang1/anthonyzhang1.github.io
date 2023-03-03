@@ -1,0 +1,56 @@
+/* This file contains styling used on any of a work's pages and its components.
+ * Each work in the works page has their own page. */
+
+.work-p {
+  text-align: left;
+}
+
+.work-p .page-title,
+.work-p .cover-image,
+.work-p .url {
+  text-align: center;
+}
+
+.work-p .cover-image {
+  /* Centers the image. */
+  display: block;
+  margin: auto auto 1rem auto;
+
+  max-width: 100%;
+}
+
+/* Removes the underlining on a link and allows it to be line broken anywhere for better responsiveness. */
+.work-p .link {
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.work-p .section-title {
+  margin-top: 1rem;
+}
+
+.work-p .section-body {
+  margin-bottom: 2.5rem;
+}
+
+/* Limit the dimensions of an image to the size of the column. */
+.work-p .additional-image {
+  max-width: 100%;
+  max-height: 100%;
+
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.work-p .caption-col {
+  display: flex;
+}
+
+.work-p .caption {
+  display: flex;
+  align-items: center;
+}
+
+.work-p .last-updated {
+  margin-top: 0.5rem;
+}
