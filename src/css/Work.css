@@ -6,8 +6,7 @@
 }
 
 .work-p .page-title,
-.work-p .cover-image,
-.work-p .url {
+.work-p .large-url {
   text-align: center;
 }
 
@@ -20,7 +19,7 @@
 }
 
 /* Removes the underlining on a link and allows it to be line broken anywhere for better responsiveness. */
-.work-p .link {
+.work-p .undecorated-link {
   text-decoration: none;
   overflow-wrap: anywhere;
 }
@@ -33,24 +32,30 @@
   margin-bottom: 2.5rem;
 }
 
-/* Limit the dimensions of an image to the size of the column. */
-.work-p .additional-image {
+.work-p .page-last-updated {
+  margin-top: 0.5rem;
+}
+
+/******* Work Image Row Component START *******/
+.work-image-row-c img {
+  /* Limits the dimensions of the image to the size of the column. */
   max-width: 100%;
   max-height: 100%;
 
+  border: 1px solid black;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
-.work-p .caption-col {
+.work-image-row-c .caption-col {
   display: flex;
 }
 
-.work-p .caption {
+.work-image-row-c .caption {
+  /* Centers the caption vertically in its column. */
   display: flex;
   align-items: center;
-}
 
-.work-p .last-updated {
-  margin-top: 0.5rem;
+  white-space: pre-line; /* Allow for newline characters to break lines. */
 }
+/******* Work Image Row Component END *******/

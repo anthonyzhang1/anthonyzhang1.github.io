@@ -5,13 +5,13 @@ import { useNavigate } from 'react-router-dom';
  * A card that shows an image of the work, its title, and its description.
  * The card can be clicked on to go to the work's page.
  * 
- * @prop {string} link The URL to the work on Anthony's website.
  * @prop {string} cardImage The path to the image of the work.
- * @prop {string} title The title of the work.
  * @prop {string} description A short description of the work.
+ * @prop {string} link The URL to the work on Anthony's website.
+ * @prop {string} title The title of the work.
  */
 export default function WorkCard(props) {
-  const { link, cardImage, title, description } = props;
+  const { cardImage, description, link, title } = props;
   const navigate = useNavigate();
 
   return (

@@ -6,29 +6,31 @@ import WorkCard from "../components/WorkCard.js";
 export default function Works() {
   /** The work cards that will be displayed on the page. The elements are ordered from newest to oldest. */
   const workCards = [
-    <WorkCard link='/work/anthony-website' cardImage='/images/works/placeholder.jpg' title="Anthony's Website [WIP]"
-      description='A website for showing my projects~'
+    <WorkCard cardImage='/images/works/placeholder.jpg' description='A website for showing my projects~'
+      link='/work/anthony-website' title="Anthony's Website [WIP]"
     />,
-    <WorkCard link='/work/gatormmunity' cardImage='/images/works/gatormmunity/card-image.png' title='Gatormmunity [WIP]'
+    <WorkCard cardImage='/images/works/gatormmunity/card-image.png'
       description='A social networking site and marketplace for San Francisco State University!'
+      link='/work/gatormmunity' title='Gatormmunity'
     />,
-    <WorkCard link='/work/hitoribocchi' cardImage='/images/works/placeholder.jpg' title='Hitoribocchi [WIP]'
+    <WorkCard cardImage='/images/works/placeholder.jpg'
       description='An iOS flashcard app that uses a spaced repetition system and was heavily inspired by Anki.'
+      link='/work/hitoribocchi' title='Hitoribocchi [WIP]'
     />,
-    <WorkCard link='/work/rratchan' cardImage='/images/works/placeholder.jpg' title='rratchan [WIP]'
-      description='A 4channel-esque imageboard.'
+    <WorkCard cardImage='/images/works/placeholder.jpg' description='A 4channel-esque imageboard.'
+      link='/work/rratchan' title='rratchan [WIP]'
     />,
-    <WorkCard link='/work/c-file-system' cardImage='/images/works/placeholder.jpg' title='C File System [WIP]'
-      description='A basic file system written in C.'
+    <WorkCard cardImage='/images/works/placeholder.jpg' description='A basic file system written in C.'
+      link='/work/c-file-system' title='C File System [WIP]'
     />,
-    <WorkCard link='/work/my-photo-website' cardImage='/images/works/placeholder.jpg' title='My Photo Website [WIP]'
-      description='A photo sharing website similar to Imgur.'
+    <WorkCard cardImage='/images/works/placeholder.jpg' description='A photo sharing website similar to Imgur.'
+      link='/work/my-photo-website' title='My Photo Website [WIP]'
     />,
-    <WorkCard link='/work/moneyish' cardImage='/images/works/placeholder.jpg' title='Moneyish [WIP]'
-      description='A mock online payment website similar to Venmo.'
+    <WorkCard cardImage='/images/works/placeholder.jpg' description='A mock online payment website similar to Venmo.'
+      link='/work/moneyish' title='Moneyish [WIP]'
     />,
-    <WorkCard link='/work/text-based-rpg' cardImage='/images/works/placeholder.jpg' title='Text-Based RPG [WIP]'
-      description='A text-based RPG written in Java.'
+    <WorkCard cardImage='/images/works/placeholder.jpg' description='A text-based RPG written in Java.'
+      link='/work/text-based-rpg' title='Text-Based RPG [WIP]'
     />
   ];
 
