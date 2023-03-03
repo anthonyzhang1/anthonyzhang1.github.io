@@ -1,11 +1,10 @@
-/* This file handles the Contact page, which shows Anthony's contact information. */
-
 import { Link } from 'react-router-dom';
 
+/** Displays the Contact page, which shows Anthony's contact information. */
 export default function Contact() {
   return (
     <div className='contact-p page-content'>
-      <h1 className='page-title'>Contact Anthony~</h1>
+      <h1 className='page-title'>Contact Anthony!</h1>
 
       {/* My email, which is just plaintext. */}
       <p>

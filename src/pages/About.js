@@ -1,5 +1,4 @@
-/* This file handles the About page, which features details about Anthony! */
-
+/** Displays the About page, which features details about Anthony! */
 export default function About() {
   return (
     <div className='about-p page-content'>

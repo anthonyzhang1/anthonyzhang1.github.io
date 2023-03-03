@@ -1,8 +1,9 @@
 /* This file contains styling for components used across multiple pages. */
 
-/* Affects the parts of the page without content. Also holds global variables. */
+/* Affects the parts of the page without content, and holds global variables. */
 :root {
   --footer-height: 40px;
+  --component-hover-color: rgb(245, 245, 245); /* Components change to this color when hovered over. */
   --site-background-color: rgb(219, 215, 225); /* Used to make the site's background color consistent. */
 
   background-color: var(--site-background-color);
@@ -12,13 +13,13 @@
 .index {
   min-height: 100vh;
   position: relative; /* Used to keep the footer where it belongs. */
-  padding-bottom: var(--footer-height); /* Prevents a page's content from being covered by the footer. */
+  padding-bottom: calc(var(--footer-height) + 10px); /* Prevents a page's content from being covered by the footer. */
   background-color: var(--site-background-color);
 
   text-align: center;
   font-family: 'Meiryo UI', 'Helvetica', sans-serif;
   font-size: 20px;
-  color: black; /* text colour */
+  color: black; /* text color */
 }
 
 /* Adds extra space between the page's h1 header and its surroundings. */
@@ -32,6 +33,18 @@
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
+
+/******* Footer Component START *******/
+.footer-c {
+  /* Sets the footer to the bottom of the page. */
+  position: absolute;
+  bottom: 0;
+  height: var(--footer-height);
+
+  border-top: 1px grey solid;
+  padding-top: 5px; /* Vertically centers the footer's content. */
+}
+/******* Footer Component END *******/
 
 /******* Navigation Bar Component START *******/
 .navigation-bar-c {
@@ -54,14 +67,18 @@
 }
 /******* Navigation Bar Component END *******/
 
-/******* Footer Component START *******/
-.footer-c {
-  /* Sets the footer to the bottom of the page. */
-  position: absolute;
-  bottom: 0;
-  height: var(--footer-height);
-
-  border-top: 1px grey solid;
-  padding-top: 5px; /* Vertically centers the footer's content. */
+/******* Work Card Component START *******/
+/* Indicates that a card is clickable by changing the cursor and color of the card on hover. */
+.work-card-c:hover {
+  cursor: pointer;
+  background-color: var(--component-hover-color);
 }
-/******* Footer Component END *******/
+
+.work-card-c .card-img {
+  max-height: 22.5rem;
+}
+
+.work-card-c .card-title {
+  font-weight: bold;
+}
+/******* Work Card Component END *******/

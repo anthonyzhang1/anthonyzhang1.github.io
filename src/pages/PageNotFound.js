@@ -1,5 +1,4 @@
-/* This file handles the Page Not Found page, which tells the user the URL is invalid. */
-
+/** Displays the Page Not Found page, where it tells the user the URL is invalid. */
 export default function PageNotFound() {
   return (
     <div className='page-not-found-p page-content'>

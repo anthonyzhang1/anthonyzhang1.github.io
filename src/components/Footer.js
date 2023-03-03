@@ -1,8 +1,6 @@
-/* This file handles the display of the footer, which contains the copyright and contact information.
- * The footer is displayed on all pages. */
-
 import { Container } from 'react-bootstrap';
 
+/** The footer only contains the copyright, and is displayed on all pages. */
 export default function Footer() {
   return (
     <Container className='footer-c' fluid>

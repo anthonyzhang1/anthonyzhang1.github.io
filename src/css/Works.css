@@ -1,0 +1,6 @@
+/* This file contains styling used on the Works page and any of its components. */
+
+/* Adds a space between the page's description and the work cards. */
+.works-p .description {
+  margin-bottom: 2.5rem;
+}

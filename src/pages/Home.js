@@ -1,5 +1,4 @@
-/* This file handles the Home page, which features a brief intro and some featured works. */
-
+/** Displays the Home page, which contains a brief intro and some featured works. */
 export default function Home() {
   return (
     <div className='home-p page-content'>
