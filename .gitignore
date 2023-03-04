@@ -2,5 +2,5 @@
 /build
 /node_modules
 
-# Used in the predeploy script to fix routing issues related to GitHub pages.
+# Used in the predeploy script to fix routing issues related to GitHub Pages.
 /404.html
