@@ -28,7 +28,8 @@ export default function Gatormmunity() {
       {/* Synopsis */}
       <h2 className='section-title'>Synopsis</h2>
       <p className='section-body'>
-        Gatormmunity is a social networking site and marketplace for San Francisco State University! <br /><br />
+        Gatormmunity is a social networking website and marketplace for San Francisco State University.
+        The website is live, accesible via the link above! <br /><br />
 
         Among other things, Gatormmunity features a forum for discussion, a marketplace to buy and sell items,
         groups that users can create and invite other users to, a live chat, and direct messaging.

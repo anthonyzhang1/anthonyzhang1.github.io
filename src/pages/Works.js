@@ -28,9 +28,9 @@ export default function Works() {
       link='/work/rratchan' title='rratchan [WIP]'
     />,
 
-    /* C File System */
-    <WorkCard cardImage='/images/works/placeholder.jpg' description='A basic file system written in C.'
-      link='/work/c-file-system' title='C File System [WIP]'
+    /* C File System, Fall 2021 */
+    <WorkCard cardImage='/images/works/c-file-system/cover.png' description='A basic file system written in C.'
+      link='/work/c-file-system' title='C File System'
     />,
 
     /* My Photo Website */
