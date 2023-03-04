@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Anthony Zhang's website~" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="icon" href="%PUBLIC_URL%/images/assets/website-icon.jpg" />
   <title>Anthony Zhang</title>
 
   <!-- Script for making React apps compatible with GitHub Pages -->
@@ -27,7 +28,7 @@
         var decoded = l.search.slice(1).split('&').map(function (s) {
           return s.replace(/~and~/g, '&')
         }).join('?');
-        
+
         window.history.replaceState(null, null,
           l.pathname.slice(0, -1) + decoded + l.hash
         );

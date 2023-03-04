@@ -16,6 +16,7 @@ import './css/Works.css';
 /* The components that are used on every page. */
 import Footer from './components/Footer.js';
 import NavigationBar from './components/NavigationBar.js';
+import ScrollToTop from './components/ScrollToTop.js';
 
 /* The main pages. */
 import About from './pages/About.js';
@@ -39,6 +40,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
+
       <div className="index">
         <NavigationBar />
 
@@ -58,7 +61,7 @@ root.render(
           <Route path='/work/my-photo-website' element={<MyPhotoWebsite />} />
           <Route path='/work/rratchan' element={<Rratchan />} />
           <Route path='/work/text-based-rpg' element={<TextBasedRPG />} />
-          
+
           {/* Invalid route */}
           <Route path='*' element={<PageNotFound />} />
         </Routes>

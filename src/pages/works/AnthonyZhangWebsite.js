@@ -47,7 +47,7 @@ export default function AnthonyZhangWebsite() {
         and my works are distinguishable from each other since they have cards with images.
         On GitHub, every work had merely a title and a description. <br /><br />
 
-        Currently, the work's cover image depicts Usada Pekora from Hololive. It may change later.
+        Currently, the work's cover image depicts Usada Pekora from Hololive.
       </p>
 
       {/* Images */}

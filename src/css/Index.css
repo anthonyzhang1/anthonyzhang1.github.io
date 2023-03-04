@@ -55,11 +55,14 @@
 /* The part of the navbar with "Anthony Zhang". */
 .navigation-bar-c .navbar-brand {
   font-weight: bold;
-  margin-right: 3%;
+  margin-right: 2.5%;
 }
 
 .navigation-bar-c .nav-link {
-  margin-right: 8.5%;
+  /* Adds a gap between the navigation links. */
+  margin-left: 4%;
+  margin-right: 4%;
+
   color: black;
 }
 
