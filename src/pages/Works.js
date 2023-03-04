@@ -7,7 +7,7 @@ export default function Works() {
   /** The work cards that will be displayed on the page. The elements should be ordered from newest to oldest. */
   const workCards = [
     /* Anthony's Website, March 2023 */
-    <WorkCard cardImage='/images/works/placeholder.jpg' description='A website for showing my projects~'
+    <WorkCard cardImage='' description='A website for showing my projects~'
       link='/work/anthony-website' title="Anthony's Website [WIP]"
     />,
 
@@ -23,9 +23,9 @@ export default function Works() {
       link='/work/hitoribocchi' title='Hitoribocchi'
     />,
 
-    /* rratchan */
-    <WorkCard cardImage='/images/works/placeholder.jpg' description='A 4channel-esque imageboard.'
-      link='/work/rratchan' title='rratchan [WIP]'
+    /* rratchan, Spring 2022 */
+    <WorkCard cardImage='/images/works/rratchan/cover.png' description='A 4channel-esque imageboard.'
+      link='/work/rratchan' title='rratchan'
     />,
 
     /* C File System, Fall 2021 */
