@@ -33,9 +33,9 @@ export default function Works() {
       link='/work/c-file-system' title='C File System'
     />,
 
-    /* My Photo Website */
-    <WorkCard cardImage='/images/works/placeholder.jpg' description='A photo sharing website similar to Imgur.'
-      link='/work/my-photo-website' title='My Photo Website [WIP]'
+    /* My Photo Website, Fall 2021 */
+    <WorkCard cardImage='/images/works/my-photo-website/cover.png' description='A photo sharing website similar to Imgur.'
+      link='/work/my-photo-website' title='My Photo Website'
     />,
 
     /* Moneyish, Fall 2021 */

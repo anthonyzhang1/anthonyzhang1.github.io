@@ -29,6 +29,7 @@ import CFileSystem from './pages/works/CFileSystem.js';
 import Gatormmunity from './pages/works/Gatormmunity.js';
 import Hitoribocchi from './pages/works/Hitoribocchi.js';
 import Moneyish from './pages/works/Moneyish.js';
+import MyPhotoWebsite from './pages/works/MyPhotoWebsite.js';
 import TextBasedRPG from './pages/works/TextBasedRPG.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -51,6 +52,7 @@ root.render(
           <Route path='/work/gatormmunity' element={<Gatormmunity />} />
           <Route path='/work/hitoribocchi' element={<Hitoribocchi />} />
           <Route path='/work/moneyish' element={<Moneyish />} />
+          <Route path='/work/my-photo-website' element={<MyPhotoWebsite />} />
           <Route path='/work/text-based-rpg' element={<TextBasedRPG />} />
           
           {/* Invalid route */}
