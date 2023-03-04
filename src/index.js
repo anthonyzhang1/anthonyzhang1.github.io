@@ -26,6 +26,7 @@ import Works from './pages/Works.js';
 
 /* The pages for my works. */
 import Gatormmunity from './pages/works/Gatormmunity.js';
+import Hitoribocchi from './pages/works/Hitoribocchi.js';
 import Moneyish from './pages/works/Moneyish.js';
 import TextBasedRPG from './pages/works/TextBasedRPG.js';
 
@@ -46,6 +47,7 @@ root.render(
 
           {/* Works */}
           <Route path='/work/gatormmunity' element={<Gatormmunity />} />
+          <Route path='/work/hitoribocchi' element={<Hitoribocchi />} />
           <Route path='/work/moneyish' element={<Moneyish />} />
           <Route path='/work/text-based-rpg' element={<TextBasedRPG />} />
           

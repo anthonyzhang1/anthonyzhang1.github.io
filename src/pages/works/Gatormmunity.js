@@ -53,7 +53,7 @@ export default function Gatormmunity() {
         I learned how to write reports, plan out a project with a team, how to work in a team, how to manage deadlines,
         and I gained a significant amount of experience with MySQL, Express.js, React, and GitHub. <br /><br />
 
-        Gatormmunity was the largest project I have ever worked on (so far) and it turned out quite well.
+        Gatormmunity was the largest project I have ever worked on (so far) and it turned out well enough.
       </p>
 
       {/* Images */}
@@ -132,7 +132,7 @@ export default function Gatormmunity() {
         imagePath='/images/works/gatormmunity/search.png'
       />
 
-      <p className='page-last-updated'>Page Last Updated: March 03, 2023</p>
+      <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>
     </div>
   );
 }

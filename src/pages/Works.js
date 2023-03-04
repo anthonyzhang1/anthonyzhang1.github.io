@@ -17,10 +17,10 @@ export default function Works() {
       link='/work/gatormmunity' title='Gatormmunity'
     />,
 
-    /* Hitoribocchi */
-    <WorkCard cardImage='/images/works/placeholder.jpg'
+    /* Hitoribocchi, Fall 2022 */
+    <WorkCard cardImage='/images/works/hitoribocchi/cover.png'
       description='An iOS flashcard app that uses a spaced repetition system and was heavily inspired by Anki.'
-      link='/work/hitoribocchi' title='Hitoribocchi [WIP]'
+      link='/work/hitoribocchi' title='Hitoribocchi'
     />,
 
     /* rratchan */
