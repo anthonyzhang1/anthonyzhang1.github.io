@@ -2,7 +2,7 @@
 export default function About() {
   return (
     <div className='about-p page-content'>
-      <h1 className='page-title'>About Anthony 🙏</h1>
+      <h1 className='page-title'>About Anthony 🥰</h1>
 
       {/* Education Section */}
       <h2 className='left-indent section-title'>Education</h2>

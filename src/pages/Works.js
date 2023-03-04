@@ -6,9 +6,9 @@ import WorkCard from "../components/WorkCard.js";
 export default function Works() {
   /** The work cards that will be displayed on the page. The elements should be ordered from newest to oldest. */
   const workCards = [
-    /* Anthony's Website, March 2023 */
-    <WorkCard cardImage='' description='A website for showing my projects~'
-      link='/work/anthony-website' title="Anthony's Website [WIP]"
+    /* Anthony Zhang's Website, March 2023 */
+    <WorkCard cardImage='/images/works/anthony-zhang-website/cover.png' description='A website for showing my works~'
+      link='/work/anthony-zhang-website' title="Anthony Zhang's Website"
     />,
 
     /* Gatormmunity, Fall 2022 */
@@ -51,11 +51,11 @@ export default function Works() {
 
   return (
     <div className='works-p page-content'>
-      <h1 className='page-title'>Anthony's Works~</h1>
+      <h1 className='page-title'>Anthony's Works 🙏</h1>
       <p className='description'>Here are a few of the projects I have worked on, ordered from newest to oldest.</p>
 
-      {/* Each card is mapped onto a grid with 2 columns in each row. */}
-      <Row className='g-4' xs={1} md={2}>
+      {/* Each card is mapped onto a grid with 1-3 columns in each row, depending on screen width. */}
+      <Row className='g-4' xs={1} sm={2} xl={3}>
         {workCards.map((card, index) => <Col key={index}>{card}</Col>)}
       </Row>
     </div>

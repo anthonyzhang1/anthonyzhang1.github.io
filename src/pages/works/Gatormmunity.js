@@ -11,7 +11,7 @@ export default function Gatormmunity() {
 
       {/* Live website link */}
       <h3 className='large-url'>
-        Gatormmunity's URL:&nbsp;<wbr />
+        Website URL:&nbsp;<wbr />
         <Link className='undecorated-link' to='http://54.241.101.69/' target="_blank" rel="noopener noreferrer">
           http://54.241.101.69/
         </Link>
@@ -20,7 +20,9 @@ export default function Gatormmunity() {
       {/* GitHub repository link */}
       <h3 className='large-url'>
         GitHub Repository:&nbsp;<wbr />
-        <Link className='undecorated-link' to='https://github.com/anthonyzhang1/Gatormmunity' target="_blank" rel="noopener noreferrer">
+        <Link className='undecorated-link' to='https://github.com/anthonyzhang1/Gatormmunity'
+          target="_blank" rel="noopener noreferrer"
+        >
           https://github.com/anthonyzhang1/Gatormmunity
         </Link>
       </h3>
@@ -29,7 +31,7 @@ export default function Gatormmunity() {
       <h2 className='section-title'>Synopsis</h2>
       <p className='section-body'>
         Gatormmunity is a social networking website and marketplace for San Francisco State University.
-        The website is live, accesible via the link above! <br /><br />
+        The website is live, accessible via the link above! <br /><br />
 
         Among other things, Gatormmunity features a forum for discussion, a marketplace to buy and sell items,
         groups that users can create and invite other users to, a live chat, and direct messaging.
@@ -42,8 +44,8 @@ export default function Gatormmunity() {
         Password: <strong>github</strong>
       </p>
 
-      {/* Additional Information and Reflection */}
-      <h2 className='section-title'>Additional Information and Reflection</h2>
+      {/* Additional Information */}
+      <h2 className='section-title'>Additional Information</h2>
       <p className='section-body'>
         Gatormmunity uses AWS as its server host, Ubuntu for the server, NGINX as its web server, and MySQL for the database.
         Express.js is used for its back end, and React for its front end. <br /><br />
@@ -51,10 +53,8 @@ export default function Gatormmunity() {
         Gatormmunity was created for my university's Software Engineering course in Fall 2022,
         where I worked in a team with 4 other students. I was the team lead. <br />
         I worked on both the back and front end, and learned a lot about Software Engineering and teamwork! <br />
-        I learned how to write reports, plan out a project with a team, how to work in a team, how to manage deadlines,
-        and I gained a significant amount of experience with MySQL, Express.js, React, and GitHub. <br /><br />
-
-        Gatormmunity was the largest project I have ever worked on (so far) and it turned out well enough.
+        I learned how to write reports, how to work in a team, how to assign tasks to team members,
+        and I gained a significant amount of experience with MySQL, Express.js, React, and GitHub.
       </p>
 
       {/* Images */}

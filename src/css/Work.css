@@ -37,7 +37,7 @@
 .captioned-image-c .image-link {
   display: block;
   margin: 1.5rem auto 1rem auto;
-  border: 1px solid grey;
+  border: 1px solid black;
   
   /* Keeps the clickable part of the link within the image itself. */
   width: fit-content;

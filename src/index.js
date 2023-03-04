@@ -25,6 +25,7 @@ import PageNotFound from './pages/PageNotFound.js';
 import Works from './pages/Works.js';
 
 /* The pages for my works. */
+import AnthonyZhangWebsite from './pages/works/AnthonyZhangWebsite.js';
 import CFileSystem from './pages/works/CFileSystem.js';
 import Gatormmunity from './pages/works/Gatormmunity.js';
 import Hitoribocchi from './pages/works/Hitoribocchi.js';
@@ -49,6 +50,7 @@ root.render(
           <Route path='/works' element={<Works />} />
 
           {/* Works */}
+          <Route path='/work/anthony-zhang-website' element={<AnthonyZhangWebsite />} />
           <Route path='/work/c-file-system' element={<CFileSystem />} />
           <Route path='/work/gatormmunity' element={<Gatormmunity />} />
           <Route path='/work/hitoribocchi' element={<Hitoribocchi />} />

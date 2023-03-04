@@ -55,9 +55,11 @@
 /* The part of the navbar with "Anthony Zhang". */
 .navigation-bar-c .navbar-brand {
   font-weight: bold;
+  margin-right: 3%;
 }
 
 .navigation-bar-c .nav-link {
+  margin-right: 8.5%;
   color: black;
 }
 
