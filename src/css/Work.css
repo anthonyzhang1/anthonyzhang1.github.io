@@ -7,6 +7,7 @@
   margin: auto auto 1rem auto;
 
   max-width: 100%;
+  max-height: 15vh;
 }
 
 .work-p .large-url {
@@ -36,7 +37,7 @@
 .captioned-image-c .image-link {
   display: block;
   margin: 1.5rem auto 1rem auto;
-  border: 1px solid black;
+  border: 1px solid grey;
   
   /* Keeps the clickable part of the link within the image itself. */
   width: fit-content;

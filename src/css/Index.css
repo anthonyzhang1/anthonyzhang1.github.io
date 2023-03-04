@@ -82,6 +82,7 @@
 
 .work-card-c .card-img {
   height: 20rem;
+  border-bottom: 1px solid darkgrey;
 }
 
 .work-card-c .card-title {
