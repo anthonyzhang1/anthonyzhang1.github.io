@@ -12,7 +12,9 @@ export default function MyPhotoWebsite() {
       {/* GitHub repository link */}
       <h3 className='large-url'>
         GitHub Repository:&nbsp;<wbr />
-        <Link className='undecorated-link' to='https://github.com/anthonyzhang1/My-Photo-Website' target="_blank" rel="noopener noreferrer">
+        <Link className='undecorated-link' to='https://github.com/anthonyzhang1/My-Photo-Website'
+          target="_blank" rel="noopener noreferrer"
+        >
           https://github.com/anthonyzhang1/My-Photo-Website
         </Link>
       </h3>
@@ -21,7 +23,7 @@ export default function MyPhotoWebsite() {
       <h2 className='section-title'>Synopsis</h2>
       <p className='section-body'>
         My Photo Website is a photo sharing website similar to Imgur, but with fewer features. <br />
-        You can register for an account, view other user's photos, upload your own photos, and comment on photos.
+        You can register for an account, view other users' photos, upload your own photos, and comment on photos.
         You may also search for photos with a matching title or description.
       </p>
 

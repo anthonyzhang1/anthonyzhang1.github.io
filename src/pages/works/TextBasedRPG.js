@@ -20,7 +20,7 @@ export default function TextBasedRPG() {
       {/* Synopsis */}
       <h2 className='section-title'>Synopsis</h2>
       <p className='section-body'>
-        A text-based RPG (role-playing game) I made in March 2020. The game is coded entirely in Java. <br />
+        A text-based RPG (role-playing game) created in March 2020. The game is coded entirely in Java. <br />
         There is little content and no story -- the game is barely a game.
         All there is to do is to fight increasingly strong enemies and watch your stats grow. <br /><br />
 
@@ -51,7 +51,7 @@ export default function TextBasedRPG() {
         imagePath='/images/works/text-based-rpg/stats.png'
       />
 
-      <p className='page-last-updated'>Page Last Updated: March 03, 2023</p>
+      <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>
     </div>
   );
 }
