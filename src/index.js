@@ -53,14 +53,14 @@ root.render(
           <Route path='/works' element={<Works />} />
 
           {/* Works */}
-          <Route path='/work/anthony-zhang-website' element={<AnthonyZhangWebsite />} />
-          <Route path='/work/c-file-system' element={<CFileSystem />} />
-          <Route path='/work/gatormmunity' element={<Gatormmunity />} />
-          <Route path='/work/hitoribocchi' element={<Hitoribocchi />} />
-          <Route path='/work/moneyish' element={<Moneyish />} />
-          <Route path='/work/my-photo-website' element={<MyPhotoWebsite />} />
-          <Route path='/work/rratchan' element={<Rratchan />} />
-          <Route path='/work/text-based-rpg' element={<TextBasedRPG />} />
+          <Route path='/works/anthony-zhang-website' element={<AnthonyZhangWebsite />} />
+          <Route path='/works/c-file-system' element={<CFileSystem />} />
+          <Route path='/works/gatormmunity' element={<Gatormmunity />} />
+          <Route path='/works/hitoribocchi' element={<Hitoribocchi />} />
+          <Route path='/works/moneyish' element={<Moneyish />} />
+          <Route path='/works/my-photo-website' element={<MyPhotoWebsite />} />
+          <Route path='/works/rratchan' element={<Rratchan />} />
+          <Route path='/works/text-based-rpg' element={<TextBasedRPG />} />
 
           {/* Invalid route */}
           <Route path='*' element={<PageNotFound />} />

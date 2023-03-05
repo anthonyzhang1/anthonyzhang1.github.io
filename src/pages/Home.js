@@ -8,18 +8,18 @@ export default function Home() {
     /* Gatormmunity, Fall 2022 */
     <WorkCard cardImage='/images/works/gatormmunity/cover.png'
       description='A social networking site and marketplace for San Francisco State University!'
-      link='/work/gatormmunity' title='Gatormmunity'
+      link='/works/gatormmunity' title='Gatormmunity'
     />,
 
     /* Hitoribocchi, Fall 2022 */
     <WorkCard cardImage='/images/works/hitoribocchi/cover.png'
       description='An iOS flashcard app that uses a spaced repetition system and was heavily inspired by Anki.'
-      link='/work/hitoribocchi' title='Hitoribocchi'
+      link='/works/hitoribocchi' title='Hitoribocchi'
     />,
 
     /* Anthony Zhang's Website, March 2023 */
     <WorkCard cardImage='/images/works/anthony-zhang-website/cover.png' description='A website for showing my works~'
-      link='/work/anthony-zhang-website' title="Anthony Zhang's Website"
+      link='/works/anthony-zhang-website' title="Anthony Zhang's Website"
     />,
   ];
 
