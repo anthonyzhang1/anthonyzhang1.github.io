@@ -33,14 +33,13 @@ export default function CFileSystem() {
         where I worked on the project with 3 other students. <br /><br />
 
         The following Linux commands are supported:&nbsp;<wbr />
-        <strong>cd</strong>, <strong>cp</strong>, <strong>exit</strong>, <strong>history</strong>,&nbsp;<wbr />
-        <strong>ls</strong>, <strong>mv</strong>, <strong>pwd</strong>, <strong>rm</strong>. <br /><br />
+        <b>cd</b>, <b>cp</b>, <b>exit</b>, <b>history</b>, <b>ls</b>, <b>mv</b>, <b>pwd</b>, <b>rm</b>. <br /><br />
 
         Other supported commands: <br />
-        <strong>cp2l</strong> - Copies a file from the C file system to the Linux file system. <br />
-        <strong>cp2fs</strong> - Copies a file from the Linux file system to the C file system. <br />
-        <strong>help</strong> - Prints out a list of supported commands. <br />
-        <strong>md</strong> - Makes a new directory. This is the same as Linux's <strong>mkdir</strong> command.
+        <b>cp2l</b> - Copies a file from the C file system to the Linux file system. <br />
+        <b>cp2fs</b> - Copies a file from the Linux file system to the C file system. <br />
+        <b>help</b> - Prints out a list of supported commands. <br />
+        <b>md</b> - Makes a new directory. This is the same as Linux's <b>mkdir</b> command.
       </p>
 
       {/* Images */}
@@ -102,7 +101,7 @@ export default function CFileSystem() {
         imagePath='/images/works/c-file-system/remove.png'
       />
 
-      <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>
+      <p className='page-last-updated'>Page Last Updated: March 05, 2023</p>
     </div>
   );
 }

@@ -40,8 +40,8 @@ export default function Gatormmunity() {
         so Gatormmunity is safer than anonymous marketplace websites like Craigslist. <br /><br />
 
         I encourage you to explore the website by logging in with this account: <br />
-        SFSU ID Number: <strong>123123123</strong> <br />
-        Password: <strong>github</strong>
+        SFSU ID Number: <b>123123123</b> <br />
+        Password: <b>github</b>
       </p>
 
       {/* Additional Information */}
@@ -133,7 +133,7 @@ export default function Gatormmunity() {
         imagePath='/images/works/gatormmunity/search.png'
       />
 
-      <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>
+      <p className='page-last-updated'>Page Last Updated: March 05, 2023</p>
     </div>
   );
 }
