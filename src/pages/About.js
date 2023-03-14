@@ -10,25 +10,23 @@ export default function About() {
         <b>San Francisco State University, California, USA</b> <br />
         <b>Graduated December 2022</b> <br />
         Bachelor of Science, Computer Science <br />
-        Honors: <i>summa cum laude</i> (GPA: 4.00)
+        Honors: <i>summa cum laude</i> (GPA: 4.00 / 4.00)
       </p>
 
-      {/* Technologies Section */}
-      <h2 className='left-indent section-title'>Technologies</h2>
+      {/* Languages and Technologies Section */}
+      <h2 className='left-indent section-title'>Languages and Technologies</h2>
       <p className='left-indent section-body'>
-        <b>Web Development:</b> HTML, CSS, JavaScript, Node.js, React, Express.js, Handlebars.js, Figma <br />
-        <b>Programming Languages:</b> JavaScript, Java, Python, Swift, C++, C, R <br />
-        <b>Databases:</b> SQL (MySQL), MongoDB <br />
-        <b>Operating Systems:</b> Windows, macOS, Linux (Ubuntu) <br />
-        <b>Miscellaneous:</b> GitHub, Amazon EC2, NGINX
+        <b>Languages:</b> HTML, CSS, JavaScript, TypeScript, Java, Python, Swift, C, C++, R, MySQL, MongoDB <br />
+        <b>Technologies:</b> Node.js, React, Express.js, Amazon EC2, NGINX, Figma, Git <br />
+        <b>Operating Systems:</b> Windows, macOS, Linux, iOS
       </p>
 
-      {/* Skills/Coursework Section */}
-      <h2 className='left-indent section-title'>Skills/Coursework</h2>
+      {/* Coursework Section */}
+      <h2 className='left-indent section-title'>Coursework</h2>
       <p className='left-indent section-body'>
         Software Engineering, Software Development, Web Development, Database Systems, iOS Application Development, <br />
-        Operating Systems, Computer Networking, Theory of Computation, Data Structures and Algorithms, <br />
-        Linear Algebra, Probability and Statistics
+        Operating Systems, Computer Networking, Security and Data Privacy, Theory of Computation, <br />
+        Data Structures and Algorithms, Analysis of Algorithms, Linear Algebra, Probability and Statistics
       </p>
     </div>
   );

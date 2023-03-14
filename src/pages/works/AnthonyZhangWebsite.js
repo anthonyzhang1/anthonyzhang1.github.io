@@ -63,7 +63,7 @@ export default function AnthonyZhangWebsite() {
       {/* About Page image */}
       <CaptionedImage
         altText='About Page'
-        caption="The about page gives a brief overview of my education and skills."
+        caption="The about page gives a brief overview of my education and technologies."
         imagePath='/images/works/anthony-zhang-website/about.png'
       />
 
@@ -81,7 +81,7 @@ export default function AnthonyZhangWebsite() {
         imagePath='/images/works/anthony-zhang-website/work.png'
       />
 
-      <p className='page-last-updated'>Page Last Updated: March 05, 2023</p>
+      <p className='page-last-updated'>Page Last Updated: March 14, 2023</p>
     </div>
   );
 }

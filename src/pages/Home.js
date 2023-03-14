@@ -27,8 +27,8 @@ export default function Home() {
     <div className='home-p page-content'>
       <h1 className='page-title'>Anthony Zhang</h1>
       <p>
-        I am a Computer Science graduate, and this website contains a number of projects I have worked on. <br />
-        Learn more about me through the links in the navigation bar above!
+        This website contains some of my works. Learn more about me through the links in the navigation bar above! <br />
+        Below are some of the works that I think are the most interesting.
       </p>
 
       <h2 className='featured-works'>Featured Works</h2>
