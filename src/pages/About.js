@@ -8,7 +8,6 @@ export default function About() {
       <h2 className='left-indent section-title'>Education</h2>
       <p className='left-indent section-body'>
         <b>San Francisco State University, California, USA</b> <br />
-        <b>Graduated December 2022</b> <br />
         Bachelor of Science, Computer Science <br />
         Honors: <i>summa cum laude</i> (GPA: 4.00 / 4.00)
       </p>
@@ -16,8 +15,8 @@ export default function About() {
       {/* Languages and Technologies Section */}
       <h2 className='left-indent section-title'>Languages and Technologies</h2>
       <p className='left-indent section-body'>
-        <b>Languages:</b> HTML, CSS, JavaScript, TypeScript, Java, Python, Swift, C, C++, R, MySQL, MongoDB <br />
-        <b>Technologies:</b> Node.js, React, Express.js, Amazon EC2, NGINX, Figma, Git <br />
+        <b>Languages:</b> HTML, CSS, JavaScript, TypeScript, Java, Python, Swift, C, C++, Haskell, R, SQL, MongoDB <br />
+        <b>Technologies:</b> Node.js, React, Express.js, SwiftUI, UIKit, Amazon EC2, NGINX, Figma, Git <br />
         <b>Operating Systems:</b> Windows, macOS, Linux, iOS
       </p>
 
