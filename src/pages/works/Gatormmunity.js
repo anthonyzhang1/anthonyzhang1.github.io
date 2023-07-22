@@ -9,20 +9,10 @@ export default function Gatormmunity() {
       <h1 className='page-title'>Gatormmunity</h1>
       <img className='cover' src='/images/works/gatormmunity/cover.png' alt="Gatormmunity" />
 
-      {/* Live website link */}
-      <h3 className='large-url'>
-        Website URL:&nbsp;<wbr />
-        <Link className='undecorated-link' to='http://54.241.101.69/' target="_blank" rel="noopener noreferrer">
-          http://54.241.101.69/
-        </Link>
-      </h3>
-
       {/* GitHub repository link */}
       <h3 className='large-url'>
         GitHub Repository:&nbsp;<wbr />
-        <Link className='undecorated-link' to='https://github.com/anthonyzhang1/Gatormmunity'
-          target="_blank" rel="noopener noreferrer"
-        >
+        <Link className='undecorated-link' to='https://github.com/anthonyzhang1/Gatormmunity' target="_blank" rel="noopener noreferrer">
           https://github.com/anthonyzhang1/Gatormmunity
         </Link>
       </h3>
@@ -30,18 +20,13 @@ export default function Gatormmunity() {
       {/* Synopsis */}
       <h2 className='section-title'>Synopsis</h2>
       <p className='section-body'>
-        Gatormmunity is a social networking website and marketplace for San Francisco State University.
-        The website is live, accessible via the link above! <br /><br />
+        Gatormmunity is a social networking website and marketplace for San Francisco State University. <br /><br />
 
         Among other things, Gatormmunity features a forum for discussion, a marketplace to buy and sell items,
         groups that users can create and invite other users to, a live chat, and direct messaging.
         Furthermore, groups have their own private group chat and a private group forum. <br />
         New users must have their identity and account verified by a moderator before they can log in,
-        so Gatormmunity is safer than anonymous marketplace websites like Craigslist. <br /><br />
-
-        I encourage you to explore the website by logging in with this account: <br />
-        SFSU ID Number: <b>123123123</b> <br />
-        Password: <b>github</b>
+        so Gatormmunity is safer than anonymous marketplace websites like Craigslist.
       </p>
 
       {/* Additional Information */}
@@ -52,9 +37,9 @@ export default function Gatormmunity() {
 
         Gatormmunity was created for my university's Software Engineering course in Fall 2022,
         where I worked in a team with 4 other students. I was the team lead. <br />
-        I worked on both the back and front end, and learned a lot about Software Engineering and teamwork! <br />
+        I worked on both the back and front end, and learned a lot about software engineering and teamwork! <br />
         I learned how to write reports, how to work in a team, how to assign tasks to team members,
-        and I gained a significant amount of experience with MySQL, Express.js, React, and GitHub.
+        and I gained experience with MySQL, Express.js, React, and GitHub.
       </p>
 
       {/* Images */}
@@ -133,7 +118,7 @@ export default function Gatormmunity() {
         imagePath='/images/works/gatormmunity/search.png'
       />
 
-      <p className='page-last-updated'>Page Last Updated: March 05, 2023</p>
+      <p className='page-last-updated'>Page Last Updated: July 22, 2023</p>
     </div>
   );
 }
