@@ -6,6 +6,11 @@ import WorkCard from "../components/WorkCard.js";
 export default function Works() {
   /** The work cards that will be displayed on the page. The elements should be ordered from newest to oldest. */
   const workCards = [
+    /* Tic-tac-toe, July 2023 */
+    <WorkCard cardImage='/images/works/tic-tac-toe/cover.png' description='Tic-tac-toe with a GUI.'
+      link='/works/tic-tac-toe' title='Tic-tac-toe'
+    />,
+
     /* Anthony Zhang's Website, March 2023 */
     <WorkCard cardImage='/images/works/anthony-zhang-website/cover.png' description='A website for showing my works~'
       link='/works/anthony-zhang-website' title="Anthony Zhang's Website"

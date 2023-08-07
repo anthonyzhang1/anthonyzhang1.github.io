@@ -34,6 +34,7 @@ import Moneyish from './pages/works/Moneyish.js';
 import MyPhotoWebsite from './pages/works/MyPhotoWebsite.js';
 import Rratchan from './pages/works/Rratchan.js';
 import TextBasedRPG from './pages/works/TextBasedRPG.js';
+import TicTacToe from './pages/works/TicTacToe.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -61,6 +62,7 @@ root.render(
           <Route path='/works/my-photo-website' element={<MyPhotoWebsite />} />
           <Route path='/works/rratchan' element={<Rratchan />} />
           <Route path='/works/text-based-rpg' element={<TextBasedRPG />} />
+          <Route path='/works/tic-tac-toe' element={<TicTacToe />} />
 
           {/* Invalid route */}
           <Route path='*' element={<PageNotFound />} />
