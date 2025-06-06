@@ -13,13 +13,12 @@ export default function Home() {
 
     /* Hitoribocchi, Fall 2022 */
     <WorkCard cardImage='/images/works/hitoribocchi/cover.png'
-      description='An iOS flashcard app that uses a spaced repetition system and was heavily inspired by Anki.'
-      link='/works/hitoribocchi' title='Hitoribocchi'
+      description='An iOS flashcard app for memorizing with spaced repetition.' link='/works/hitoribocchi' title='Hitoribocchi'
     />,
 
-    /* Anthony Zhang's Website, March 2023 */
-    <WorkCard cardImage='/images/works/anthony-zhang-website/cover.png' description='A website for showing my works~'
-      link='/works/anthony-zhang-website' title="Anthony Zhang's Website"
+    /* Connect Four, 2023-08 */
+    <WorkCard cardImage='/images/works/connect-four/cover.png' description='Connect Four with a GUI.'
+      link='/works/connect-four' title='Connect Four'
     />,
   ];
 

@@ -28,6 +28,7 @@ import Works from './pages/Works.js';
 /* The pages for my works. */
 import AnthonyZhangWebsite from './pages/works/AnthonyZhangWebsite.js';
 import CFileSystem from './pages/works/CFileSystem.js';
+import ConnectFour from './pages/works/ConnectFour.js';
 import Gatormmunity from './pages/works/Gatormmunity.js';
 import Hitoribocchi from './pages/works/Hitoribocchi.js';
 import Moneyish from './pages/works/Moneyish.js';
@@ -56,6 +57,7 @@ root.render(
           {/* Works */}
           <Route path='/works/anthony-zhang-website' element={<AnthonyZhangWebsite />} />
           <Route path='/works/c-file-system' element={<CFileSystem />} />
+          <Route path='/works/connect-four' element={<ConnectFour />} />
           <Route path='/works/gatormmunity' element={<Gatormmunity />} />
           <Route path='/works/hitoribocchi' element={<Hitoribocchi />} />
           <Route path='/works/moneyish' element={<Moneyish />} />

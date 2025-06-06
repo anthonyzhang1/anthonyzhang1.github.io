@@ -15,7 +15,7 @@ export default function About() {
       {/* Languages and Technologies Section */}
       <h2 className='left-indent section-title'>Languages and Technologies</h2>
       <p className='left-indent section-body'>
-        <b>Languages:</b> HTML, CSS, JavaScript, TypeScript, Java, Python, Swift, C, C++, Haskell, R, SQL, MongoDB <br />
+        <b>Languages:</b> HTML, CSS, JavaScript, TypeScript, Java, Python, Swift, C, C++, SQL, MongoDB <br />
         <b>Technologies:</b> Node.js, React, Express.js, SwiftUI, UIKit, Amazon EC2, NGINX, Figma, Git <br />
         <b>Operating Systems:</b> Windows, macOS, Linux, iOS
       </p>

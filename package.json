@@ -4,16 +4,16 @@
   "homepage": "https://anthonyzhang1.github.io/",
   "private": true,
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.7.2",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.2",
+    "bootstrap": "^5.3.6",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^6.3.0"
   },
   "scripts": {
     "predeploy": "npm run build && copy 404.html build",

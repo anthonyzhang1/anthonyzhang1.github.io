@@ -6,12 +6,17 @@ import WorkCard from "../components/WorkCard.js";
 export default function Works() {
   /** The work cards that will be displayed on the page. The elements should be ordered from newest to oldest. */
   const workCards = [
-    /* Tic-tac-toe, July 2023 */
+    /* Connect Four, 2023-08 */
+    <WorkCard cardImage='/images/works/connect-four/cover.png' description='Connect Four with a GUI.'
+      link='/works/connect-four' title='Connect Four'
+    />,
+
+    /* Tic-tac-toe, 2023-07 */
     <WorkCard cardImage='/images/works/tic-tac-toe/cover.png' description='Tic-tac-toe with a GUI.'
       link='/works/tic-tac-toe' title='Tic-tac-toe'
     />,
 
-    /* Anthony Zhang's Website, March 2023 */
+    /* Anthony Zhang's Website, 2023-03 */
     <WorkCard cardImage='/images/works/anthony-zhang-website/cover.png' description='A website for showing my works~'
       link='/works/anthony-zhang-website' title="Anthony Zhang's Website"
     />,
@@ -24,8 +29,7 @@ export default function Works() {
 
     /* Hitoribocchi, Fall 2022 */
     <WorkCard cardImage='/images/works/hitoribocchi/cover.png'
-      description='An iOS flashcard app that uses a spaced repetition system and was heavily inspired by Anki.'
-      link='/works/hitoribocchi' title='Hitoribocchi'
+      description='An iOS flashcard app for memorizing with spaced repetition.' link='/works/hitoribocchi' title='Hitoribocchi'
     />,
 
     /* rratchan, Spring 2022 */
