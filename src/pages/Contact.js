@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Contact() {
   return (
     <div className='contact-p page-content'>
-      <h1 className='page-title'>Contact Anthony!</h1>
+      <h1 className='page-title'>Contact Anthony 🕊️</h1>
 
       {/* My email, which is just plaintext. */}
       <p>

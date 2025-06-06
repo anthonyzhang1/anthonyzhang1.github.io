@@ -20,22 +20,50 @@ export default function ConnectFour() {
       {/* Synopsis */}
       <h2 className='section-title'>Synopsis</h2>
       <p className='section-body'>
-        {/* TODO: Write synopsis: use GitHub README and release, state game objective, etc. */}
+        Connect Four with a graphical user interface. You can play against yourself or a friend next to you.<br /><br />
+
+        To win, connect 4 tokens of your colour in a row while preventing your opponent from doing the same.<br />
+        You may form rows horizontally, vertically, or diagonally.<br/><br/>
+        
+        Install the game&nbsp;
+        <Link className='undecorated-link' to='https://github.com/anthonyzhang1/Connect-Four/blob/main/README.md#installing-the-game'
+         target="_blank" rel="noopener noreferrer">here</Link> by following the instructions in the "Installing the Game" section.
       </p>
 
       {/* Additional Information */}
       <h2 className='section-title'>Additional Information</h2>
       <p className='section-body'>
-        {/* TODO: Write technical details, start date, motivations, etc.  */}
-        {/* The game is written in Python. tkinter is used for the graphical user interface, and pytest is used for testing.
-            This project was created on 2023-08. */}
+        I started this project to get more familiar with creating GUIs and to build on what I learned from my last project,&nbsp;
+        <Link className='undecorated-link' to='/works/tic-tac-toe' target="_blank" rel="noopener noreferrer">Tic-tac-toe</Link>.<br /><br />
+
+        This project is written in Python and uses tkinter for the graphics, and pytest for testing.<br />
+        Its development started on 2023-08.<br /><br />
       </p>
 
       {/* Images */}
       <h2 className='section-title'>Images</h2>
-      {/* TODO: Add images */}
+      {/* New Game */}
+      <CaptionedImage
+        altText='A new game.'
+        caption='Starting a game.'
+        imagePath='/images/works/connect-four/new-game.png'
+      />
 
-      <p className='page-last-updated'>Page Last Updated: June 06, 2025</p>
+      {/* Won Game */}
+      <CaptionedImage
+        altText='A won game.'
+        caption='Winning a game.'
+        imagePath='/images/works/connect-four/won-game.png'
+      />
+
+      {/* Tied Game */}
+      <CaptionedImage
+        altText='A tied game.'
+        caption='Tying a game.'
+        imagePath='/images/works/connect-four/tied-game.png'
+      />
+
+      <p className='page-last-updated'>Page last updated on 2025-06-06.</p>
     </div>
   );
 }

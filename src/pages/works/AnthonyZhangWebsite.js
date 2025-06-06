@@ -81,7 +81,7 @@ export default function AnthonyZhangWebsite() {
         imagePath='/images/works/anthony-zhang-website/work.png'
       />
 
-      <p className='page-last-updated'>Page Last Updated: July 22, 2023</p>
+      <p className='page-last-updated'>Page last updated on 2025-06-06.</p>
     </div>
   );
 }

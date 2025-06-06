@@ -60,8 +60,8 @@ export default function Works() {
 
   return (
     <div className='works-p page-content'>
-      <h1 className='page-title'>Anthony's Works 🙏</h1>
-      <p className='description'>Here are a few of the projects I have worked on, ordered from newest to oldest.</p>
+      <h1 className='page-title'>Anthony's Works</h1>
+      <p className='description'>The publicly available projects I have worked on, from newest to oldest.</p>
 
       {/* Each card is mapped onto a grid with 1-3 columns in each row, depending on screen width. */}
       <Row className='g-4' xs={1} sm={2} xl={3}>
