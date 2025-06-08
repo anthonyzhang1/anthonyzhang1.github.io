@@ -33,7 +33,7 @@
   margin-bottom: 1.5rem;
 }
 
-/******* Captioned Image Component START *******/
+/******* Media Components START *******/
 .captioned-image-c .image-link {
   display: block;
   margin: 1.5rem auto 1rem auto;
@@ -44,12 +44,13 @@
   max-width: 75%;
 }
 
-.captioned-image-c img {
-  max-width: 100%; /* Prevents the image from spilling out of its <Link> container. */
+/* Fits the media in the screen. */
+.media :is(img, video) {
+  max-width: 100%; /* Prevents images from spilling out of its <Link> container. */
   max-height: 66vh;
 }
 
-.captioned-image-c .caption {
+.media .caption {
   margin-bottom: 3.5rem;
   white-space: pre-line; /* Allow for newline characters to break lines. */
 }

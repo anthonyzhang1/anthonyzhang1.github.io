@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import CaptionedImage from '../../components/CaptionedImage.js';
+import CaptionedVideo from '../../components/CaptionedVideo.js';
 
 /** Displays the Connect Four work page, which contains a cover image, links, a description of the application,
  *  and multiple images with captions. */
@@ -40,8 +41,14 @@ export default function ConnectFour() {
         Its development started on 2023-08.<br /><br />
       </p>
 
-      {/* Images */}
-      <h2 className='section-title'>Images</h2>
+      {/* Media */}
+      <h2 className='section-title'>Media</h2>
+      {/* Demo Video */}
+      <CaptionedVideo
+        caption='A gameplay demo.'
+        path='/images/works/connect-four/demo.mp4'
+      />
+
       {/* New Game */}
       <CaptionedImage
         altText='A new game.'
@@ -63,7 +70,7 @@ export default function ConnectFour() {
         imagePath='/images/works/connect-four/tied-game.png'
       />
 
-      <p className='page-last-updated'>Page last updated on 2025-06-06.</p>
+      <p className='page-last-updated'>Page last updated on 2025-06-08.</p>
     </div>
   );
 }

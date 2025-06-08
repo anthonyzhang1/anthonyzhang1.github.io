@@ -12,7 +12,7 @@ export default function CaptionedImage(props) {
   const { altText, caption, imagePath } = props;
 
   return (
-    <div className='captioned-image-c'>
+    <div className='captioned-image-c media'>
       {/* Clicking on the image opens itself in a new tab. */}
       <Link className='image-link' to={imagePath} target="_blank" rel="noopener noreferrer">
         <img src={imagePath} alt={altText} />
