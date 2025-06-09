@@ -6,18 +6,18 @@ export default function Home() {
   /** The work cards that will be displayed on the page. The most featured elements should be first. */
   const workCards = [
     /* Gatormmunity, Fall 2022 */
-    <WorkCard cardImage='/images/works/gatormmunity/cover.png'
+    <WorkCard cardImage='/media/works/gatormmunity/cover.png'
       description='A social networking site and marketplace for San Francisco State University!'
       link='/works/gatormmunity' title='Gatormmunity'
     />,
 
     /* Hitoribocchi, Fall 2022 */
-    <WorkCard cardImage='/images/works/hitoribocchi/cover.png'
+    <WorkCard cardImage='/media/works/hitoribocchi/cover.png'
       description='An iOS flashcard app for memorizing with spaced repetition.' link='/works/hitoribocchi' title='Hitoribocchi'
     />,
 
     /* Connect Four, 2023-08 */
-    <WorkCard cardImage='/images/works/connect-four/cover.png' description='Connect Four with a GUI.'
+    <WorkCard cardImage='/media/works/connect-four/cover.png' description='Connect Four with a GUI.'
       link='/works/connect-four' title='Connect Four'
     />,
   ];

@@ -7,7 +7,7 @@ export default function AnthonyZhangWebsite() {
   return (
     <div className='anthony-zhang-website-p work-p page-content'>
       <h1 className='page-title'>Anthony Zhang's Website</h1>
-      <img className='cover' src='/images/works/anthony-zhang-website/cover.png' alt="Anthony Zhang's Website" />
+      <img className='cover' src='/media/works/anthony-zhang-website/cover.png' alt="Anthony Zhang's Website" />
 
       {/* Live website link */}
       <h3 className='large-url'>
@@ -57,28 +57,28 @@ export default function AnthonyZhangWebsite() {
       <CaptionedImage
         altText='Home Page'
         caption="This is the home page. I show my featured works here."
-        imagePath='/images/works/anthony-zhang-website/home.png'
+        imagePath='/media/works/anthony-zhang-website/home.png'
       />
 
       {/* About Page image */}
       <CaptionedImage
         altText='About Page'
         caption="The about page gives a brief overview of my education and technologies."
-        imagePath='/images/works/anthony-zhang-website/about.png'
+        imagePath='/media/works/anthony-zhang-website/about.png'
       />
 
       {/* Works Page image */}
       <CaptionedImage
         altText='Works Page'
         caption="The works page is where I show all of my publicly available works."
-        imagePath='/images/works/anthony-zhang-website/works-page.png'
+        imagePath='/media/works/anthony-zhang-website/works-page.png'
       />
 
       {/* Work Page image */}
       <CaptionedImage
         altText='Work Page'
         caption="Each work has its own page containing links, an overview of the work, and some images of the work."
-        imagePath='/images/works/anthony-zhang-website/work.png'
+        imagePath='/media/works/anthony-zhang-website/work.png'
       />
 
       <p className='page-last-updated'>Page last updated on 2025-06-06.</p>

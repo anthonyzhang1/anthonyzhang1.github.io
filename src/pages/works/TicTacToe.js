@@ -7,7 +7,7 @@ export default function TicTacToe() {
   return (
     <div className='tic-tac-toe-p work-p page-content'>
       <h1 className='page-title'>Tic-tac-toe</h1>
-      <img className='cover' src='/images/works/tic-tac-toe/cover.png' alt="Tic-tac-toe" />
+      <img className='cover' src='/media/works/tic-tac-toe/cover.png' alt="Tic-tac-toe" />
 
       {/* GitHub Repository Link */}
       <h3 className='large-url'>
@@ -46,21 +46,21 @@ export default function TicTacToe() {
       <CaptionedImage
         altText='A new game.'
         caption='What a new game looks like.'
-        imagePath='/images/works/tic-tac-toe/new-game.png'
+        imagePath='/media/works/tic-tac-toe/new-game.png'
       />
 
       {/* Won Game */}
       <CaptionedImage
         altText='A won game.'
         caption='What a victory looks like.'
-        imagePath='/images/works/tic-tac-toe/won-game.png'
+        imagePath='/media/works/tic-tac-toe/won-game.png'
       />
 
       {/* Tied Game */}
       <CaptionedImage
         altText='A tied game.'
         caption='What a tie looks like.'
-        imagePath='/images/works/tic-tac-toe/tied-game.png'
+        imagePath='/media/works/tic-tac-toe/tied-game.png'
       />
 
       <p className='page-last-updated'>Page Last Updated: August 07, 2023</p>

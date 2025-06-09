@@ -8,7 +8,7 @@ export default function ConnectFour() {
   return (
     <div className='connect-four-p work-p page-content'>
       <h1 className='page-title'>Connect Four</h1>
-      <img className='cover' src='/images/works/connect-four/cover.png' alt="Connect Four" />
+      <img className='cover' src='/media/works/connect-four/cover.png' alt="Connect Four" />
 
       {/* GitHub Repository Link */}
       <h3 className='large-url'>
@@ -46,28 +46,28 @@ export default function ConnectFour() {
       {/* Demo Video */}
       <CaptionedVideo
         caption='A gameplay demo.'
-        path='/images/works/connect-four/demo.mp4'
+        path='/media/works/connect-four/demo.mp4'
       />
 
       {/* New Game */}
       <CaptionedImage
         altText='A new game.'
         caption='Starting a game.'
-        imagePath='/images/works/connect-four/new-game.png'
+        imagePath='/media/works/connect-four/new-game.png'
       />
 
       {/* Won Game */}
       <CaptionedImage
         altText='A won game.'
         caption='Winning a game.'
-        imagePath='/images/works/connect-four/won-game.png'
+        imagePath='/media/works/connect-four/won-game.png'
       />
 
       {/* Tied Game */}
       <CaptionedImage
         altText='A tied game.'
         caption='Tying a game.'
-        imagePath='/images/works/connect-four/tied-game.png'
+        imagePath='/media/works/connect-four/tied-game.png'
       />
 
       <p className='page-last-updated'>Page last updated on 2025-06-08.</p>

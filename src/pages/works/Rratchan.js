@@ -7,7 +7,7 @@ export default function Rratchan() {
   return (
     <div className='rratchan-p work-p page-content'>
       <h1 className='page-title'>rratchan</h1>
-      <img className='cover' src='/images/works/rratchan/cover.png' alt="rratchan" />
+      <img className='cover' src='/media/works/rratchan/cover.png' alt="rratchan" />
 
       {/* GitHub repository link */}
       <h3 className='large-url'>
@@ -39,14 +39,14 @@ export default function Rratchan() {
       <CaptionedImage
         altText='Home Page'
         caption="The home page, which shows all the boards (topics). Clicking on a board shows you that board's threads."
-        imagePath='/images/works/rratchan/home.png'
+        imagePath='/media/works/rratchan/home.png'
       />
 
       {/* Create Board Page image */}
       <CaptionedImage
         altText='Create Board Page'
         caption="Moderators may create new boards."
-        imagePath='/images/works/rratchan/create-board.png'
+        imagePath='/media/works/rratchan/create-board.png'
       />
 
       {/* Board Catalog image */}
@@ -56,7 +56,7 @@ export default function Rratchan() {
           `This is the Virtual Youtubers board. You can see the board's description and all of its threads here.
           Clicking on a thread's image takes you to that thread's page, where you can see all of its replies.`
         }
-        imagePath='/images/works/rratchan/catalog.png'
+        imagePath='/media/works/rratchan/catalog.png'
       />
 
       {/* Create Thread image */}
@@ -66,7 +66,7 @@ export default function Rratchan() {
           `Anyone can create a thread in a board by filling out this form. An account is not required -- you can post anonymously.
           You can enter your credentials if you wish to create a thread under your username.`
         }
-        imagePath='/images/works/rratchan/create-thread.png'
+        imagePath='/media/works/rratchan/create-thread.png'
       />
 
       {/* View Thread image */}
@@ -76,7 +76,7 @@ export default function Rratchan() {
           `When viewing a thread, you can see the thread's image, its body, and all of its replies.
           Just like with threads, replies can be posted anonymously.`
         }
-        imagePath='/images/works/rratchan/view-thread.png'
+        imagePath='/media/works/rratchan/view-thread.png'
       />
 
       {/* Profile Page image */}
@@ -86,7 +86,7 @@ export default function Rratchan() {
           `This is a user's profile. Everyone's profile is public, and it shows the user's recently started threads, \
           recently posted replies, and their bookmarked threads.`
         }
-        imagePath='/images/works/rratchan/profile.png'
+        imagePath='/media/works/rratchan/profile.png'
       />
 
       <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>

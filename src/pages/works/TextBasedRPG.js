@@ -7,7 +7,7 @@ export default function TextBasedRPG() {
   return (
     <div className='text-based-rpg-p work-p page-content'>
       <h1 className='page-title'>Text-Based RPG</h1>
-      <img className='cover' src='/images/works/text-based-rpg/cover.png' alt="Text-based RPG" />
+      <img className='cover' src='/media/works/text-based-rpg/cover.png' alt="Text-based RPG" />
 
       {/* GitHub repository link */}
       <h3 className='large-url'>
@@ -34,21 +34,21 @@ export default function TextBasedRPG() {
       <CaptionedImage
         altText='combat'
         caption='Fighting and slaying a mouse, then leveling up.'
-        imagePath='/images/works/text-based-rpg/combat.png'
+        imagePath='/media/works/text-based-rpg/combat.png'
       />
 
       {/* Shop image */}
       <CaptionedImage
         altText='shopping'
         caption='Entering the shop and buying an item.'
-        imagePath='/images/works/text-based-rpg/shop.png'
+        imagePath='/media/works/text-based-rpg/shop.png'
       />
 
       {/* Stats image */}
       <CaptionedImage
         altText='character stats'
         caption='Examining your own stats.'
-        imagePath='/images/works/text-based-rpg/stats.png'
+        imagePath='/media/works/text-based-rpg/stats.png'
       />
 
       <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>

@@ -7,7 +7,7 @@ export default function Hitoribocchi() {
   return (
     <div className='hitoribocchi-p work-p page-content'>
       <h1 className='page-title'>Hitoribocchi</h1>
-      <img className='cover' src='/images/works/hitoribocchi/cover.png' alt="Hitoribocchi" />
+      <img className='cover' src='/media/works/hitoribocchi/cover.png' alt="Hitoribocchi" />
 
       {/* GitHub repository link */}
       <h3 className='large-url'>
@@ -47,21 +47,21 @@ export default function Hitoribocchi() {
       <CaptionedImage
         altText='Decks'
         caption='Flashcard decks can be created and deleted in the Decks screen.'
-        imagePath='/images/works/hitoribocchi/decks.png'
+        imagePath='/media/works/hitoribocchi/decks.png'
       />
 
       {/* Create Card image */}
       <CaptionedImage
         altText='Create Card'
         caption='Here is a multiple choice card being created. There are other types of flashcards that can be created too.'
-        imagePath='/images/works/hitoribocchi/create-card.png'
+        imagePath='/media/works/hitoribocchi/create-card.png'
       />
 
       {/* Basic Card Prompt image */}
       <CaptionedImage
         altText='Basic Card Prompt'
         caption="You can review your due flashcards. Here is a basic flashcard's prompt."
-        imagePath='/images/works/hitoribocchi/basic-prompt.png'
+        imagePath='/media/works/hitoribocchi/basic-prompt.png'
       />
 
       {/* Basic Card Solution image */}
@@ -72,7 +72,7 @@ export default function Hitoribocchi() {
           You then determine when the card will be shown again by tapping one of the buttons on the bottom: \
           the harder the answer was to recall, the sooner you should have it due.`
         }
-        imagePath='/images/works/hitoribocchi/basic-solution.png'
+        imagePath='/media/works/hitoribocchi/basic-solution.png'
       />
 
       {/* True/False Card Prompt image */}
@@ -82,7 +82,7 @@ export default function Hitoribocchi() {
           `Here is a true/false card's prompt. Pressing the wrong answer makes the card due sooner, \
           whereas getting it right makes it due later.`
         }
-        imagePath='/images/works/hitoribocchi/true-false-prompt.png'
+        imagePath='/media/works/hitoribocchi/true-false-prompt.png'
       />
 
       {/* Multiple Choice Card Prompt image */}
@@ -92,7 +92,7 @@ export default function Hitoribocchi() {
           `Here is a multiple choice card's prompt. Pressing the wrong answer makes the card due sooner, \
           whereas getting it right makes it due later.`
         }
-        imagePath='/images/works/hitoribocchi/multiple-choice-prompt.png'
+        imagePath='/media/works/hitoribocchi/multiple-choice-prompt.png'
       />
 
       {/* Card Search image */}
@@ -102,7 +102,7 @@ export default function Hitoribocchi() {
           `You can search for a particular flashcard in the search screen. \
           Tapping one of the search results shows that card's details.`
         }
-        imagePath='/images/works/hitoribocchi/search.png'
+        imagePath='/media/works/hitoribocchi/search.png'
       />
 
       {/* Card Details image */}
@@ -112,7 +112,7 @@ export default function Hitoribocchi() {
           `You can view a card's details such as when it was created, when it is due, and your proficiency with the card. \
           Larger next due date multipliers indicate greater proficiency.`
         }
-        imagePath='/images/works/hitoribocchi/card-details.png'
+        imagePath='/media/works/hitoribocchi/card-details.png'
       />
 
       <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>

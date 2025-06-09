@@ -7,7 +7,7 @@ export default function MyPhotoWebsite() {
   return (
     <div className='my-photo-website-p work-p page-content'>
       <h1 className='page-title'>My Photo Website</h1>
-      <img className='cover' src='/images/works/my-photo-website/cover.png' alt="cover" />
+      <img className='cover' src='/media/works/my-photo-website/cover.png' alt="cover" />
 
       {/* GitHub repository link */}
       <h3 className='large-url'>
@@ -47,28 +47,28 @@ export default function MyPhotoWebsite() {
           `The home page. Here, users can see images uploaded by others.
           The image thumbnails have reduced quality in order to speed up load times for those with slow connections.`
         }
-        imagePath='/images/works/my-photo-website/home.png'
+        imagePath='/media/works/my-photo-website/home.png'
       />
 
       {/* Registration Page image */}
       <CaptionedImage
         altText='Registration Page'
         caption="The registration page. Passwords are hashed before being inserted into the database!"
-        imagePath='/images/works/my-photo-website/registration.png'
+        imagePath='/media/works/my-photo-website/registration.png'
       />
 
       {/* Post Image Page image */}
       <CaptionedImage
         altText='Post Page'
         caption="Logged-in users can fill out this form in the Post Image page to upload images."
-        imagePath='/images/works/my-photo-website/post-image.png'
+        imagePath='/media/works/my-photo-website/post-image.png'
       />
 
       {/* Search results image */}
       <CaptionedImage
         altText='Search results'
         caption="Users can search for images that contain the provided search term."
-        imagePath='/images/works/my-photo-website/search.png'
+        imagePath='/media/works/my-photo-website/search.png'
       />
 
       {/* View Post Page image */}
@@ -79,7 +79,7 @@ export default function MyPhotoWebsite() {
           Also visible are the post's details and any comments left by others.
           Logged-in users can add their own comments.`
         }
-        imagePath='/images/works/my-photo-website/view-post.png'
+        imagePath='/media/works/my-photo-website/view-post.png'
       />
 
       <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>

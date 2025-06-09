@@ -7,7 +7,7 @@ export default function Gatormmunity() {
   return (
     <div className='gatormmunity-p work-p page-content'>
       <h1 className='page-title'>Gatormmunity</h1>
-      <img className='cover' src='/images/works/gatormmunity/cover.png' alt="Gatormmunity" />
+      <img className='cover' src='/media/works/gatormmunity/cover.png' alt="Gatormmunity" />
 
       {/* GitHub repository link */}
       <h3 className='large-url'>
@@ -49,42 +49,42 @@ export default function Gatormmunity() {
       <CaptionedImage
         altText='The Home Page'
         caption="This is the Home page. It shows Gatormmunity's slogan and its features to entice new users."
-        imagePath='/images/works/gatormmunity/home.png'
+        imagePath='/media/works/gatormmunity/home.png'
       />
 
       {/* About Us Page image */}
       <CaptionedImage
         altText='The About Us page'
         caption="This is the About Us page. It shows Gatormmunity's mission and the team that developed it."
-        imagePath='/images/works/gatormmunity/about-us.png'
+        imagePath='/media/works/gatormmunity/about-us.png'
       />
 
       {/* Gatormmunity Forums Page image */}
       <CaptionedImage
         altText='The Gatormmunity Forums page'
         caption="This is the Gatormmunity Forums page. It shows all the threads that match the filters provided."
-        imagePath='/images/works/gatormmunity/forums.png'
+        imagePath='/media/works/gatormmunity/forums.png'
       />
 
       {/* Forum Thread Page image */}
       <CaptionedImage
         altText='A forum thread'
         caption="This is the page for a particular thread. Users may discuss things related to the thread's topic here."
-        imagePath='/images/works/gatormmunity/thread.png'
+        imagePath='/media/works/gatormmunity/thread.png'
       />
 
       {/* Marketplace Page image */}
       <CaptionedImage
         altText='The Gatormmunity Marketplace page'
         caption="This is the Marketplace page. It shows all the the listings that match the filters provided."
-        imagePath='/images/works/gatormmunity/marketplace.png'
+        imagePath='/media/works/gatormmunity/marketplace.png'
       />
 
       {/* Marketplace Listing Page image */}
       <CaptionedImage
         altText='A marketplace listing'
         caption="This is the page for a specific marketplace listing. It shows the listing's details."
-        imagePath='/images/works/gatormmunity/listing.png'
+        imagePath='/media/works/gatormmunity/listing.png'
       />
 
       {/* Group Home Page image */}
@@ -95,7 +95,7 @@ export default function Gatormmunity() {
           Here, the administrator of a group can post an announcement for group members to see.
           Also, the group forums, group members, and inviting to group features are accessible via the buttons on the left.`
         }
-        imagePath='/images/works/gatormmunity/group.png'
+        imagePath='/media/works/gatormmunity/group.png'
       />
 
       {/* Gator Chat Page image */}
@@ -105,7 +105,7 @@ export default function Gatormmunity() {
           `This is the Gator Chat page. Users may chat in real time with other users here.
           The group chat page and direct message/inbox page looks identical to this.`
         }
-        imagePath='/images/works/gatormmunity/gator-chat.png'
+        imagePath='/media/works/gatormmunity/gator-chat.png'
       />
 
       {/* Search Page image */}
@@ -115,7 +115,7 @@ export default function Gatormmunity() {
           `This is the search page. Users that are logged in may search for specific users, listings, or threads here.
           Users may also apply filters to their search results.`
         }
-        imagePath='/images/works/gatormmunity/search.png'
+        imagePath='/media/works/gatormmunity/search.png'
       />
 
       <p className='page-last-updated'>Page Last Updated: July 22, 2023</p>

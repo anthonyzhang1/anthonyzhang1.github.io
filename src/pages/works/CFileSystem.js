@@ -7,7 +7,7 @@ export default function CFileSystem() {
   return (
     <div className='c-file-system-p work-p page-content'>
       <h1 className='page-title'>C File System</h1>
-      <img className='cover' src='/images/works/c-file-system/cover.png' alt="C File System" />
+      <img className='cover' src='/media/works/c-file-system/cover.png' alt="C File System" />
 
       {/* GitHub repository link */}
       <h3 className='large-url'>
@@ -49,7 +49,7 @@ export default function CFileSystem() {
       <CaptionedImage
         altText='Making a new directory'
         caption="'md' is used to make a new directory."
-        imagePath='/images/works/c-file-system/new-directory.png'
+        imagePath='/media/works/c-file-system/new-directory.png'
       />
 
       {/* Change directory command image */}
@@ -59,7 +59,7 @@ export default function CFileSystem() {
           `'cd' is used to change the current working directory. \
           We started at the root directory (indicated with the '/' character) and changed the directory to /newDir.`
         }
-        imagePath='/images/works/c-file-system/change-directory.png'
+        imagePath='/media/works/c-file-system/change-directory.png'
       />
 
       {/* File transfer (cp2fs/cp2l) image */}
@@ -74,7 +74,7 @@ export default function CFileSystem() {
           This demonstrates how files can be transferred between the Linux file system and the C file system. \
           Renaming the files is optional.`
         }
-        imagePath='/images/works/c-file-system/file-transfer.png'
+        imagePath='/media/works/c-file-system/file-transfer.png'
       />
 
       {/* Move command image */}
@@ -84,21 +84,21 @@ export default function CFileSystem() {
           `'mv' is used to move a file or directory to another directory. It is also used to rename files and directories.
           We use 'ls' to show that 'copied-ogey-rrat.txt' was successfully renamed and moved to 'newDir'.`
         }
-        imagePath='/images/works/c-file-system/move.png'
+        imagePath='/media/works/c-file-system/move.png'
       />
 
       {/* Copy command image */}
       <CaptionedImage
         altText='Copying files'
         caption="'cp' is used to copy files."
-        imagePath='/images/works/c-file-system/copy.png'
+        imagePath='/media/works/c-file-system/copy.png'
       />
 
       {/* Remove command image */}
       <CaptionedImage
         altText='Deleting files'
         caption="'rm' is used to delete files and empty directories."
-        imagePath='/images/works/c-file-system/remove.png'
+        imagePath='/media/works/c-file-system/remove.png'
       />
 
       <p className='page-last-updated'>Page Last Updated: March 05, 2023</p>

@@ -7,7 +7,7 @@ export default function Moneyish() {
   return (
     <div className='moneyish-p work-p page-content'>
       <h1 className='page-title'>Moneyish</h1>
-      <img className='cover' src='/images/works/moneyish/cover.png' alt="Moneyish" />
+      <img className='cover' src='/media/works/moneyish/cover.png' alt="Moneyish" />
 
       {/* GitHub repository link */}
       <h3 className='large-url'>
@@ -55,14 +55,14 @@ export default function Moneyish() {
           `The home page, where users can log in, sign up, and view a list of public transactions.
           Private transactions are not shown here.`
         }
-        imagePath='/images/works/moneyish/home.png'
+        imagePath='/media/works/moneyish/home.png'
       />
 
       {/* Check Balance Page image */}
       <CaptionedImage
         altText='Check Balance Page'
         caption='Users can check their account balance.'
-        imagePath='/images/works/moneyish/check-balance.png'
+        imagePath='/media/works/moneyish/check-balance.png'
       />
 
       {/* Manage Balance Page image */}
@@ -72,7 +72,7 @@ export default function Moneyish() {
           `Users can deposit or withdraw funds from their Moneyish account through their credit card.
           Since Moneyish is a mock website, it does not actually use anyone's credit card.`
         }
-        imagePath='/images/works/moneyish/manage-balance.png'
+        imagePath='/media/works/moneyish/manage-balance.png'
       />
 
       {/* Send Money Page image */}
@@ -82,14 +82,14 @@ export default function Moneyish() {
           `Users can send money to other users using their Moneyish account balance, credit card, or through money order.
           Transactions can be made private or public, and a note can be attached to the payment.`
         }
-        imagePath='/images/works/moneyish/send-money.png'
+        imagePath='/media/works/moneyish/send-money.png'
       />
 
       {/* Check Transactions Page image */}
       <CaptionedImage
         altText='Check Transactions Page'
         caption='Users can check their transaction history.'
-        imagePath='/images/works/moneyish/check-transactions.png'
+        imagePath='/media/works/moneyish/check-transactions.png'
       />
 
       <p className='page-last-updated'>Page Last Updated: March 03, 2023</p>
