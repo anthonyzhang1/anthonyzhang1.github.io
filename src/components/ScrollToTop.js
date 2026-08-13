@@ -6,5 +6,5 @@ export default function ScrollToTop() {
   const { pathname } = useLocation();
 
   /* Instantly scrolls to the top of the page after changing pages. */
-  useEffect(() => window.scrollTo({ top: 0, left: 0, behavior: 'instant' }), [pathname]);
+  useEffect(() => {window.scrollTo({ top: 0, left: 0, behavior: 'instant' })}, [pathname]);
 }

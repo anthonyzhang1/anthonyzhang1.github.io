@@ -12,8 +12,8 @@ export default function AnthonyZhangWebsite() {
       {/* Live website link */}
       <h3 className='large-url'>
         Website URL:&nbsp;<wbr />
-        <Link className='undecorated-link' to='https://anthonyzhang1.github.io/' target="_blank" rel="noopener noreferrer">
-          https://anthonyzhang1.github.io/
+        <Link className='undecorated-link' to='https://anthonyzhang1.github.io' target="_blank" rel="noopener noreferrer">
+          https://anthonyzhang1.github.io
         </Link>
       </h3>
 
@@ -30,24 +30,16 @@ export default function AnthonyZhangWebsite() {
       {/* Synopsis */}
       <h2 className='section-title'>Synopsis</h2>
       <p className='section-body'>
-        Anthony Zhang's Website is where I present some information about myself and my works.
-        The website is live, accessible via the link above! <br />
-        Each work has their own GitHub page where the technical details and the source code are kept --
-        the website is for providing background information and images of the work.
+        Anthony Zhang's Website is where I show what I've worked on, i.e. my portfolio. <br />
+        Each work already has their own GitHub page where the technical details and source code is kept --
+        the website is for sharing additional information and images of the work.
       </p>
 
       {/* Additional Information */}
       <h2 className='section-title'>Additional Information</h2>
       <p className='section-body'>
         Anthony Zhang's Website uses React for the website and GitHub Pages to host the website. <br />
-        The website was made in March 2023. <br /><br />
-
-        I made Anthony Zhang's Website because I felt it made it easier for others to learn about my works. <br />
-        I can organize the work's information and photos more easily on the website than on GitHub,
-        and my works are distinguishable from each other since they have cards with images.
-        On GitHub, every work had merely a title and a description. <br /><br />
-
-        Currently, the work's cover image depicts Usada Pekora from Hololive.
+        The website was made in March 2023.
       </p>
 
       {/* Images */}
@@ -81,7 +73,7 @@ export default function AnthonyZhangWebsite() {
         imagePath='/media/works/anthony-zhang-website/work.png'
       />
 
-      <p className='page-last-updated'>Page last updated on 2025-06-06.</p>
+      <p className='page-last-updated'>Page last updated on 2026-08-13.</p>
     </div>
   );
 }
