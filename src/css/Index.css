@@ -48,6 +48,10 @@
 
 /******* Navigation Bar Component START *******/
 .navigation-bar-c {
+  position: sticky; /* Sticky header. */
+  top: 0;
+  z-index: 1;
+  background-color: var(--site-background-color);
   border-bottom: 1px grey solid;
   padding: 0.25rem; /* Makes the navigation bar not as tall. */
 }
