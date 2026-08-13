@@ -88,8 +88,6 @@ export default function Rratchan() {
         }
         imagePath='/media/works/rratchan/profile.png'
       />
-
-      <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>
     </div>
   );
 }

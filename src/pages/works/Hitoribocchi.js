@@ -114,8 +114,6 @@ export default function Hitoribocchi() {
         }
         imagePath='/media/works/hitoribocchi/card-details.png'
       />
-
-      <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>
     </div>
   );
 }

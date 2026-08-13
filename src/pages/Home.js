@@ -26,7 +26,7 @@ export default function Home() {
     <div className='home-p page-content'>
       <h1 className='page-title'>Anthony Zhang</h1>
       <p>
-        This website contains my works. Learn more about me through the links above!<br />
+        This website contains my projects. Learn more about me through the links above!<br />
         Featured below are the works I think are the most interesting.
       </p>
 

@@ -17,7 +17,7 @@ export default function Works() {
     />,
 
     /* Anthony Zhang's Website, 2023-03 */
-    <WorkCard cardImage='/media/works/anthony-zhang-website/cover.png' description='A website for showing my works~'
+    <WorkCard cardImage='/media/works/anthony-zhang-website/cover.png' description='My portfolio website.'
       link='/works/anthony-zhang-website' title="Anthony Zhang's Website"
     />,
 
@@ -61,7 +61,7 @@ export default function Works() {
   return (
     <div className='works-p page-content'>
       <h1 className='page-title'>Anthony's Works</h1>
-      <p className='description'>The publicly available projects I have worked on, from newest to oldest.</p>
+      <p className='description'>The projects I've worked on, from newest to oldest.</p>
 
       {/* Each card is mapped onto a grid with 1-3 columns in each row, depending on screen width. */}
       <Row className='g-4' xs={1} sm={2} xl={3}>

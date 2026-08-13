@@ -69,8 +69,6 @@ export default function ConnectFour() {
         caption='Tying a game.'
         imagePath='/media/works/connect-four/tied-game.png'
       />
-
-      <p className='page-last-updated'>Page last updated on 2025-06-08.</p>
     </div>
   );
 }

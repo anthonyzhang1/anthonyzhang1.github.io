@@ -12,10 +12,16 @@ export default function Contact() {
         anthony.zhang56@gmail.com
       </p>
 
-      {/* GitHub (opens in new tab) */}
+      {/* LinkedIn */}
+      <Link className='link' to='https://linkedin.com/in/anthony-zhang-dayo' target="_blank" rel="noopener noreferrer">
+        <img className='icon' src='/media/assets/linkedin-icon.png' alt='LinkedIn icon' />
+        LinkedIn
+      </Link>
+
+      {/* GitHub */}
       <Link className='link' to='https://github.com/anthonyzhang1' target="_blank" rel="noopener noreferrer">
         <img className='icon' src='/media/assets/github-icon.svg' alt='GitHub icon' />
-        anthonyzhang1
+        GitHub
       </Link>
     </div>
   );

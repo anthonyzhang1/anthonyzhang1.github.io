@@ -72,8 +72,6 @@ export default function AnthonyZhangWebsite() {
         caption="Each work has its own page containing links, an overview of the work, and some images of the work."
         imagePath='/media/works/anthony-zhang-website/work.png'
       />
-
-      <p className='page-last-updated'>Page last updated on 2026-08-13.</p>
     </div>
   );
 }

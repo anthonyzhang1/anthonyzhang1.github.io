@@ -8,7 +8,7 @@ export default function About() {
       <p className='left-indent section-body'>
         <b>San Francisco State University, California, USA</b> <br />
         Bachelor of Science, Computer Science <br />
-        Honours: <i>summa cum laude</i> (GPA: 4.00 / 4.00)
+        GPA: 4.00 / 4.00
       </p>
 
       <h2 className='left-indent section-title'>Skills</h2>

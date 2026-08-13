@@ -81,8 +81,6 @@ export default function MyPhotoWebsite() {
         }
         imagePath='/media/works/my-photo-website/view-post.png'
       />
-
-      <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>
     </div>
   );
 }

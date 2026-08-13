@@ -62,8 +62,6 @@ export default function TicTacToe() {
         caption='What a tie looks like.'
         imagePath='/media/works/tic-tac-toe/tied-game.png'
       />
-
-      <p className='page-last-updated'>Page Last Updated: August 07, 2023</p>
     </div>
   );
 }

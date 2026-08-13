@@ -91,8 +91,6 @@ export default function Moneyish() {
         caption='Users can check their transaction history.'
         imagePath='/media/works/moneyish/check-transactions.png'
       />
-
-      <p className='page-last-updated'>Page Last Updated: March 03, 2023</p>
     </div>
   );
 }

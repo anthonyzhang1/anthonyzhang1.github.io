@@ -117,8 +117,6 @@ export default function Gatormmunity() {
         }
         imagePath='/media/works/gatormmunity/search.png'
       />
-
-      <p className='page-last-updated'>Page Last Updated: July 22, 2023</p>
     </div>
   );
 }

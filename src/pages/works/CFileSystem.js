@@ -100,8 +100,6 @@ export default function CFileSystem() {
         caption="'rm' is used to delete files and empty directories."
         imagePath='/media/works/c-file-system/remove.png'
       />
-
-      <p className='page-last-updated'>Page Last Updated: March 05, 2023</p>
     </div>
   );
 }

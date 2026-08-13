@@ -50,8 +50,6 @@ export default function TextBasedRPG() {
         caption='Examining your own stats.'
         imagePath='/media/works/text-based-rpg/stats.png'
       />
-
-      <p className='page-last-updated'>Page Last Updated: March 04, 2023</p>
     </div>
   );
 }
