@@ -28,7 +28,7 @@ export default function About() {
       <h2 className='left-indent section-title'>Personal</h2>
       <p className='left-indent section-body'>
         <b>Languages:</b> English (Native), Cantonese (Basic), Japanese (Basic) <br />
-        <b>Interests:</b> Chess, Shōgi, Japanese Mahjong
+        <b>Interests:</b> Japanese, Chess, Shōgi, Mahjong
       </p>
     </div>
   );
