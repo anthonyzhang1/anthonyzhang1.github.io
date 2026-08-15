@@ -13,7 +13,7 @@ export default function Contact() {
       </p>
 
       {/* LinkedIn */}
-      <Link className='link' to='https://linkedin.com/in/anthony-zhang-dayo' target="_blank" rel="noopener noreferrer">
+      <Link className='link' to='https://linkedin.com/in/zhang-anthony' target="_blank" rel="noopener noreferrer">
         <img className='icon' src='/media/assets/linkedin-icon.png' alt='LinkedIn icon' />
         LinkedIn
       </Link>
